@@ -23,7 +23,7 @@
 		<script type="text/javascript">
 			// mobile
 			if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-				document.getElementById('flipclock').setAttribute("style","zoom:1.5;");
+				document.getElementById('flipclock').setAttribute("style","zoom:2.5;");
     			document.getElementById('ShowDate').setAttribute("style","zoom:1.5;");
     		}
 
@@ -31,7 +31,7 @@
 			
 			$(document).ready(function() {
 				clock = $('.clock').FlipClock({
-					clockFace: 'TwelveHourClock',
+					clockFace: 'TwentyFourHourClock ',
 					showSeconds: false
 				});
 			});
